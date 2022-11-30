@@ -1,0 +1,38 @@
+package lessonThird;
+
+import java.util.Scanner;
+
+public class LessonThird {
+        public static void main(String[] args) {
+
+            String str = "I love Java Lessons!";
+            System.out.println("1. " + str.charAt(0));
+            System.out.println("2. " + str.contains("love"));
+            System.out.println("3. " + str.replace('o', 'a'));
+            System.out.println("4. " + str.toUpperCase());
+            System.out.println("5. " + str.toLowerCase());
+            System.out.println("6. " + str.substring(str.indexOf("Lessons")));
+            System.out.println("8. " + str.indexOf('L'));
+
+            Scanner scannerFirst = new Scanner(System.in);
+            System.out.println("10. Напишите ваше имя: ");
+            String readVal = scannerFirst.next();
+            System.out.println("Hello, " + readVal + "!");
+
+            Scanner scannerSecond = new Scanner(System.in);
+            System.out.println("11. Напишите ваше имя: ");
+            String readValSecond = scannerSecond.next();
+            System.out.println("Ваше имя начинается на букву '" + readValSecond.charAt(0) + "'");
+        }
+
+
+
+// Task 1.2
+
+    double d = 59.976;
+    int intFromDouble = (int) d;
+
+
+    int i = 475;
+    short shortFromInt = (short) i;
+}

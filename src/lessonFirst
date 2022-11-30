@@ -1,0 +1,90 @@
+package lessonFirst;
+
+public class LessonFirst {
+    public static void main(String[] args) {
+
+ ## Task 1.1
+
+public class HomeWorkFirst {
+    public static void main(String[] args) {
+
+        char a = 'G';
+        int b = 89;
+        byte c = 4;
+        short d = 56;
+        float e = 4.7333436f;
+        double f = 4.355453532;
+        long g = 12121L;
+
+        System.out.println("char: " + a);
+        System.out.println("integer: " + b);
+        System.out.println("byte: " + c);
+        System.out.println("short: " + d);
+        System.out.println("float: " + e);
+        System.out.println("double: " + f);
+        System.out.println("long: " + g);
+    }
+}
+
+
+## Task 1.2
+
+public class HomeWorkFirst {
+    public static void main(String[] args) {
+
+        int a = 246;
+        System.out.println(a / 100);
+        System.out.println(a / 10 % 10);
+        System.out.println(a % 10);
+    }
+}
+
+
+## Task 1.3
+
+public class HomeWorkFirst {
+    public static void main(String[] args) {
+
+        int a = 9;
+        System.out.println(a * a);
+    }
+}
+
+
+## Task 1.4
+
+public class HomeWorkFirst {
+    public static void main(String[] args) {
+
+        int first = 0;
+        int second = 1;
+        int third = 2;
+        int fourth = 3;
+        int fifth = 4;
+        int sixth = 5;
+        int seventh = 6;
+        int eighth = 7;
+        int ninth = 8;
+        int tenth = 9;
+        int eleventh = first + second + third + fourth + fifth + sixth + seventh + eighth + ninth + tenth;
+
+        System.out.println(eleventh / 10);
+        System.out.println("Программа отбросила в дробной части " + eleventh % 10 + " десятых");
+    }
+}
+
+
+## Task 1.5
+
+public class HomeWorkFirst {
+    public static void main(String[] args) {
+
+        int price1 = 1000;
+        int price2 = 500;
+        int discount = 100;
+
+        System.out.println("Всего к оплате: " + (price1 + price2 - discount + " рублей"));
+        System.out.println("Скидка составила: " + discount + " рублей");
+
+    }
+}
